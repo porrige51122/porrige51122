@@ -9,3 +9,5 @@ Feel free to connect with me for tech discussions, questions, or just a friendly
 Stay tuned for more updates and cool projects coming your way! 🎉
 
 ![Metrics](/github-metrics.svg)
+![MetricsComments](/metrics.comments.svg)
+![MetricsLines](/metrics.lines.svg)
