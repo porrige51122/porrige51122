@@ -11,3 +11,21 @@ Stay tuned for more updates and cool projects coming your way! 🎉
 ![Metrics](/github-metrics.svg)
 ![MetricsComments](/metrics.comments.svg)
 ![MetricsLines](/metrics.lines.svg)
+
+<table>
+    <tr>
+        <td>
+            <img src="github-metrics.svg" alt="General Metrics">
+        </td>
+        <td>
+            <img src="metrics.comments.svg" alt="Comments">
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+            <img src="metrics.lines.svg" alt="Lines of Code">
+        </td>
+    </tr>
+</table>
