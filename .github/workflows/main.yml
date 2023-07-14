@@ -18,6 +18,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community
           base_indepth: yes
+          repositories: 500
+          repositories_affiliations: collaborator, owner
+          repositories_forks: yes
           plugin_reactions: yes
           plugin_reactions_limit: 10000
           plugin_reactions_details: percentage
@@ -27,6 +30,9 @@ jobs:
           filename: metrics.lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          repositories: 500
+          repositories_forks: yes
+          repositories_affiliations: collaborator, owner
           plugin_gists: yes
           plugin_lines: yes
           plugin_lines_repositories_limit: 10000
