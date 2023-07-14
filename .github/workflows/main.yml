@@ -16,6 +16,9 @@ jobs:
         name: Metrics
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          plugin_reactions: yes
+          plugin_reactions_limit: 10000
+          plugin_reactions_details: percentage
       - uses: lowlighter/metrics@latest
         name: Diff history
         with:
@@ -26,13 +29,3 @@ jobs:
           plugin_lines_repositories_limit: 10000
           plugin_lines_sections: history
           plugin_lines_history_limit: 5
-      - name: Comments
-        uses: lowlighter/metrics@latest
-        with:
-          base: ""
-          filename: metrics.comments.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_reactions: yes
-          plugin_reactions_limit: 10000
-          plugin_reactions_details: percentage
-
