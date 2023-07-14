@@ -13,8 +13,5 @@ Stay tuned for more updates and cool projects coming your way! 🎉
         <td>
             <img src="github-metrics.svg" alt="General Metrics">
         </td>
-        <td>
-            <img src="metrics.lines.svg" alt="Diff Lines">
-        </td>
     </tr>
 </table>
