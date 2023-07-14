@@ -32,4 +32,7 @@ jobs:
           base: ""
           filename: metrics.comments.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          plugin_reactions: yes
+          plugin_reactions_limit: 10000
+          plugin_reactions_details: percentage
 
