@@ -20,7 +20,6 @@ jobs:
         with:
           filename: metrics.lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories, history
           plugin_lines_repositories_limit: 10000
@@ -30,7 +29,6 @@ jobs:
         with:
           filename: metrics.comments.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
           plugin_reactions: yes
           plugin_reactions_details: percentage
 
